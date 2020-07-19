@@ -1,0 +1,201 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "mainClass": "Tree.BinaryTreeLevelOrderTraversal",
+            "args": "[3,9,20,null,null,15,7]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "mainClass": "Array.KthLargestElement",
+            "args": "[3,2,1,5,6,4] 2"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "mainClass": "Array.FindDuplicate",
+            "args": "[1,3,4,2,2]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "mainClass": "Array.RotateImage",
+            "args": "[[1,2,3],[4,5,6],[7,8,9]]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "mainClass": "StringProblems.GroupAnagrams",
+            "args": "eat tea tan ate nat bat"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "mainClass": "Tree.KthSmallestElement",
+            "args": "[3,1,4,null,2] 2"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "mainClass": "Array.ProductExceptSelf",
+            "args": "[1,2,3,4]"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TopKFrequentElements",
+            "request": "launch",
+            "mainClass": "Common.TopKFrequentElements",
+            "projectName": "LeetCode_bdde8d20"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PalindromicSubstring",
+            "request": "launch",
+            "mainClass": "StringProblems.PalindromicSubstring",
+            "projectName": "LeetCode_bdde8d20"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PalindromicSubstring",
+            "request": "launch",
+            "mainClass": "Common.PalindromicSubstring",
+            "projectName": "LeetCode_bdde8d20"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TopKFrequentElements",
+            "request": "launch",
+            "mainClass": "Array.TopKFrequentElements",
+            "projectName": "LeetCode_bdde8d20",
+            "args": "[1,1,1,2,2,3] 2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Subsets",
+            "request": "launch",
+            "mainClass": "Common.Subsets",
+            "projectName": "LeetCode_bdde8d20",
+            "args": "[1,2,3,4]"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GenerateParantheses",
+            "request": "launch",
+            "mainClass": "Common.GenerateParantheses",
+            "projectName": "LeetCode_bdde8d20"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Permutations<LeetCode_bdde8d20>",
+            "request": "launch",
+            "mainClass": "Common.Permutations",
+            "args": "[1,2,3,4]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinaryTreeTraverse<LeetCode_bdde8d20>",
+            "request": "launch",
+            "mainClass": "Tree.BinaryTreeTraverse",
+            "args": "[1,null,2,3]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UnsortedSubArray<LeetCode_bdde8d20>",
+            "request": "launch",
+            "mainClass": "Array.UnsortedSubArray",
+            "projectName": "LeetCode_bdde8d20"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CountingBits<LeetCode_bdde8d20>",
+            "request": "launch",
+            "mainClass": "Common.CountingBits",
+            "projectName": "LeetCode_bdde8d20"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ValidParantheses<LeetCode_bdde8d20>",
+            "request": "launch",
+            "mainClass": "Common.ValidParantheses",
+            "projectName": "LeetCode_bdde8d20"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ListNode<LeetCode_bdde8d20>",
+            "request": "launch",
+            "mainClass": "CommonDS.ListNode",
+            "projectName": "LeetCode_bdde8d20"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DailyTempareture<LeetCode_bdde8d20>",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.DailyTempareture",
+            "projectName": "LeetCode_bdde8d20",
+            "args": "[73,74,75,71,69,72,76,73]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PalindromList<LeetCode_bdde8d20>",
+            "request": "launch",
+            "mainClass": "LinkedList.PalindromList",
+            "projectName": "LeetCode_bdde8d20"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution<LeetCode_bdde8d20>",
+            "request": "launch",
+            "mainClass": "SingleElementInSortedArray.Solution",
+            "projectName": "LeetCode_bdde8d20"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QueueReconstruction<LeetCode_bdde8d20>",
+            "request": "launch",
+            "mainClass": "Sorting.QueueReconstruction",
+            "projectName": "LeetCode_bdde8d20",
+            "args": "1 2 3 4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MinStack<LeetCode_bdde8d20>",
+            "request": "launch",
+            "mainClass": "Tree.MinStack",
+            "projectName": "LeetCode_bdde8d20"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PathSum<LeetCode_bdde8d20>",
+            "request": "launch",
+            "mainClass": "Tree.PathSum",
+            "projectName": "LeetCode_bdde8d20",
+            "args": "[1,2,3,4,null,5,null,6]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SumPaths<LeetCode_bdde8d20>",
+            "request": "launch",
+            "mainClass": "Tree.SumPaths",
+            "projectName": "LeetCode_bdde8d20"
+        }
+    ]
+}
