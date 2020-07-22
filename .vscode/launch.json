@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Debug (Launch)",
             "request": "launch",
+            "mainClass": "DynamicProgramming.MinimumPathSum",
+            "args": "[[1,3,1],[1,5,1],[4,2,1]]"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
             "mainClass": "Tree.BinaryTreeLevelOrderTraversal",
             "args": "[3,9,20,null,null,15,7]"
         },
