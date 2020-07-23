@@ -6,14 +6,14 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Debug (Launch)",
+            "name": "Debug (Launch) - ContainerWithMostWater",
             "request": "launch",
             "mainClass": "Array.ContainerWithMostWater",
             "args": "[1,3,2,5,25,24,5]"
         },
         {
             "type": "java",
-            "name": "Debug (Launch)",
+            "name": "Debug (Launch) - UniquePaths",
             "request": "launch",
             "mainClass": "DynamicProgramming.UniquePaths",
             "args": "19 12"
@@ -21,56 +21,56 @@
 
         {
             "type": "java",
-            "name": "Debug (Launch)",
+            "name": "Debug (Launch) - MinimumPathSum",
             "request": "launch",
             "mainClass": "DynamicProgramming.MinimumPathSum",
             "args": "[[1,3,1],[1,5,1],[4,2,1]]"
         },
         {
             "type": "java",
-            "name": "Debug (Launch)",
+            "name": "Debug (Launch) - BinaryTreeLevelOrderTraversal",
             "request": "launch",
             "mainClass": "Tree.BinaryTreeLevelOrderTraversal",
             "args": "[3,9,20,null,null,15,7]"
         },
         {
             "type": "java",
-            "name": "Debug (Launch)",
+            "name": "Debug (Launch) - KthLargestElement",
             "request": "launch",
             "mainClass": "Array.KthLargestElement",
             "args": "[3,2,1,5,6,4] 2"
         },
         {
             "type": "java",
-            "name": "Debug (Launch)",
+            "name": "Debug (Launch) - FindDuplicate",
             "request": "launch",
             "mainClass": "Array.FindDuplicate",
             "args": "[1,3,4,2,2]"
         },
         {
             "type": "java",
-            "name": "Debug (Launch)",
+            "name": "Debug (Launch) - RotateImage",
             "request": "launch",
             "mainClass": "Array.RotateImage",
             "args": "[[1,2,3],[4,5,6],[7,8,9]]"
         },
         {
             "type": "java",
-            "name": "Debug (Launch)",
+            "name": "Debug (Launch) - GroupAnagrams",
             "request": "launch",
             "mainClass": "StringProblems.GroupAnagrams",
             "args": "eat tea tan ate nat bat"
         },
         {
             "type": "java",
-            "name": "Debug (Launch)",
+            "name": "Debug (Launch) - KthSmallestElement",
             "request": "launch",
             "mainClass": "Tree.KthSmallestElement",
             "args": "[3,1,4,null,2] 2"
         },
         {
             "type": "java",
-            "name": "Debug (Launch)",
+            "name": "Debug (Launch) - ProductExceptSelf",
             "request": "launch",
             "mainClass": "Array.ProductExceptSelf",
             "args": "[1,2,3,4]"
