@@ -8,6 +8,14 @@
             "type": "java",
             "name": "Debug (Launch)",
             "request": "launch",
+            "mainClass": "DynamicProgramming.UniquePaths",
+            "args": "19 12"
+        },
+
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
             "mainClass": "DynamicProgramming.MinimumPathSum",
             "args": "[[1,3,1],[1,5,1],[4,2,1]]"
         },
