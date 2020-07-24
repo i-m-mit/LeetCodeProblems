@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Debug (Launch) - HouseRobberTwo",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.HouseRobberTwo",
+            "args": "[1,2,3,1]"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - ContainerWithMostWater",
             "request": "launch",
             "mainClass": "Array.ContainerWithMostWater",
