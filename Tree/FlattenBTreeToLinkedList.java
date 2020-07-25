@@ -1,7 +1,5 @@
 package Tree;
 
-import java.util.Stack;
-
 import CommonDS.TreeNode;
 import Util.InputHelper;
 
@@ -14,7 +12,7 @@ public class FlattenBTreeToLinkedList {
         TreeNode left = root.left;
         TreeNode right = root.right;
         root.left = null;
-        
+
         flatten(left);
         flatten(right);
 
