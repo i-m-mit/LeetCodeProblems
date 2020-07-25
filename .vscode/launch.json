@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Debug (Launch) - HouseRobberThree",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.HouseRobberThree",
+            "args": "[3,2,3,null,3,null,1]"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - HouseRobberTwo",
             "request": "launch",
             "mainClass": "DynamicProgramming.HouseRobberTwo",
