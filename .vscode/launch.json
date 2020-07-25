@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Debug (Launch) - StringDecoder",
+            "request": "launch",
+            "mainClass": "StringProblems.StringDecoder",
+            "args": "3[a]2[bc]"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - HouseRobberThree",
             "request": "launch",
             "mainClass": "DynamicProgramming.HouseRobberThree",
