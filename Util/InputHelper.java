@@ -124,4 +124,17 @@ public class InputHelper {
             throw new IllegalArgumentException("Input arguments are not adequate. Please check input arguments!!");
         }
     }
+
+    public static char[] argsToCharacterArray(String[] args) {
+        checkInputArgs(args);
+        String input = args[0];
+        input = input.replace("[", "").replace("]", "");
+        String[] chars = input.split(",");
+        char[] retArray = new char[chars.length];
+        int i = 0;
+        for (String s : chars) {
+            retArray[i++] = s.charAt(0);
+        }
+        return retArray;
+    }
 }
