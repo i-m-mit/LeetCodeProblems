@@ -56,6 +56,22 @@ public class InputHelper {
     }
 
     /**
+     * Converts the first index of the commandline arguments into int array
+     * 
+     * @param args  command line argument straight from main() method
+     * @param index index of string in args[]
+     * @return converted int array
+     */
+    public static int[] stringToIntegers(String[] args, int index) {
+        checkInputArgs(args);
+        if (index >= args.length) {
+            throw new IllegalArgumentException("Index not present in args[]");
+        }
+        String[] sInputs = stringToArray(args[index]);
+        return argsToIntArray(sInputs);
+    }
+
+    /**
      * Converts the first index of the commandline arguments into 2D int array
      * 
      * @param args command line argument straight from main() method
@@ -125,6 +141,12 @@ public class InputHelper {
         }
     }
 
+    /**
+     * Converts string array into char array
+     * 
+     * @param args command line argument straight from main() method
+     * @return converted char array
+     */
     public static char[] argsToCharacterArray(String[] args) {
         checkInputArgs(args);
         String input = args[0];

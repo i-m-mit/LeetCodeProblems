@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TreeFromPreorderAndInorder",
+            "request": "launch",
+            "mainClass": "Tree.TreeFromPreorderAndInorder",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[3,9,20,15,7] [9,3,15,20,7]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TaskScheduler",
             "request": "launch",
             "mainClass": "Queue.TaskScheduler",
