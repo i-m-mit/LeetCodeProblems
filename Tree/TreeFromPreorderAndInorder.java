@@ -40,5 +40,6 @@ public class TreeFromPreorderAndInorder {
 
         TreeFromPreorderAndInorder o = new TreeFromPreorderAndInorder();
         TreeNode result = o.buildTree(preorder, inorder);
+        System.out.println(result);
     }
 }
