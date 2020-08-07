@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - NumberOfIslands",
+            "request": "launch",
+            "mainClass": "Common.NumberOfIslands",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[['1','1','1','1','0'],['1','1','0','1','0'],['1','1','0','0','0'],['0','0','0','0','0']]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SortColors",
             "request": "launch",
             "mainClass": "Sorting.SortColors",

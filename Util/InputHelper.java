@@ -56,6 +56,18 @@ public class InputHelper {
     }
 
     /**
+     * Converts the first index of the commandline arguments into char array
+     * 
+     * @param args command line argument straight from main() method
+     * @return converted char array
+     */
+    public static char[] stringToChars(String[] args) {
+        checkInputArgs(args);
+        String[] sInputs = stringToArray(args[0]);
+        return argsToCharArray(sInputs);
+    }
+
+    /**
      * Converts the first index of the commandline arguments into int array
      * 
      * @param args  command line argument straight from main() method
@@ -84,6 +96,23 @@ public class InputHelper {
         int i = 0;
         for (String sInput : arrays) {
             retArray[i++] = stringToIntegers(new String[] { sInput });
+        }
+        return retArray;
+    }
+
+    /**
+     * Converts the first index of the commandline arguments into 2D char array
+     * 
+     * @param args command line argument straight from main() method
+     * @return converted char array
+     */
+    public static char[][] stringTo2DCharArray(String[] args) {
+        checkInputArgs(args);
+        String[] arrays = args[0].split("\\],\\[");
+        char[][] retArray = new char[arrays.length][];
+        int i = 0;
+        for (String sInput : arrays) {
+            retArray[i++] = stringToChars(new String[] { sInput });
         }
         return retArray;
     }
@@ -122,6 +151,27 @@ public class InputHelper {
         for (String s : args) {
             try {
                 retArray[i] = Integer.parseInt(s);
+            } catch (Exception e) {
+
+            }
+            i++;
+        }
+        return retArray;
+    }
+
+    /**
+     * Converts string array into char array
+     * 
+     * @param args string array to be converted into char array
+     * @return converted char array
+     */
+    public static char[] argsToCharArray(String[] args) {
+        checkInputArgs(args);
+        char[] retArray = new char[args.length];
+        int i = 0;
+        for (String s : args) {
+            try {
+                retArray[i] = s.charAt(1);
             } catch (Exception e) {
 
             }
