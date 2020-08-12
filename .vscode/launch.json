@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LetterCombinationOnPhone",
+            "request": "launch",
+            "mainClass": "Common.LetterCombinationOnPhone",
+            "projectName": "LeetCodeProblems_17562f4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - NumberOfIslands",
             "request": "launch",
             "mainClass": "Common.NumberOfIslands",
