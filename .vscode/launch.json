@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - NumbersSmallerThanCurrent",
+            "request": "launch",
+            "mainClass": "Array.NumbersSmallerThanCurrent",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[8,1,2,2,3]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ShuffleString",
             "request": "launch",
             "mainClass": "StringProblems.ShuffleString",
