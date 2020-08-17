@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FinalPricesWithSpecialDiscount",
+            "request": "launch",
+            "mainClass": "Array.FinalPricesWithSpecialDiscount",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[8,4,6,2,3]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FlippingAnImage",
             "request": "launch",
             "mainClass": "Array.FlippingAnImage",
