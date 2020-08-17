@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - IncreasingDecreasingString",
+            "request": "launch",
+            "mainClass": "StringProblems.IncreasingDecreasingString",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "aaaabbbbcccc"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FinalPricesWithSpecialDiscount",
             "request": "launch",
             "mainClass": "Array.FinalPricesWithSpecialDiscount",
