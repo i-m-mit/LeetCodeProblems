@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MinimumTimeVisitingAllPoints",
+            "request": "launch",
+            "mainClass": "Array.MinimumTimeVisitingAllPoints",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[[1,1],[3,4],[-1,0]]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ConvertBinaryNumberToInteger",
             "request": "launch",
             "mainClass": "LinkedList.ConvertBinaryNumberToInteger",
