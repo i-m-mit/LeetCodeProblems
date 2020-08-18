@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RangeSumOfBST",
+            "request": "launch",
+            "mainClass": "Tree.RangeSumOfBST",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[10,5,15,3,7,null,18]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FindNumbersWithEvenNumberOfDigits",
             "request": "launch",
             "mainClass": "Array.FindNumbersWithEvenNumberOfDigits",
