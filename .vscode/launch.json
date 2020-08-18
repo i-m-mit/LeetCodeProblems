@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BestTimeToBuyStocksII",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.BestTimeToBuyStocksII",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[7,6,4,3,1]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ConvertSortedArrayBinarySearchTree",
             "request": "launch",
             "mainClass": "Tree.ConvertSortedArrayBinarySearchTree",
