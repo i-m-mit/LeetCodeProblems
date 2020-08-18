@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - XOROperationInArray",
+            "request": "launch",
+            "mainClass": "Array.XOROperationInArray",
+            "projectName": "LeetCodeProblems_17562f4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DecompressRunLengthEncodedList",
             "request": "launch",
             "mainClass": "Array.DecompressRunLengthEncodedList",
