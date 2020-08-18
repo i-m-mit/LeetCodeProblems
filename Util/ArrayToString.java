@@ -23,6 +23,26 @@ public class ArrayToString {
     }
 
     /**
+     * Convert int array into printable representation
+     * 
+     * @param input 1D int array
+     * @return string representation of the array
+     */
+    public static String convert1DArrayToString(char[] input) {
+        if (input.length == 0)
+            return "";
+        StringBuffer buffer = new StringBuffer("[");
+        for (char element : input) {
+            buffer.append(element + ", ");
+        }
+        buffer.deleteCharAt(buffer.length() - 1);
+        buffer.deleteCharAt(buffer.length() - 1);
+        buffer.append("]");
+
+        return buffer.toString();
+    }
+
+    /**
      * Convert 2D int array into printable representation
      * 
      * @param input @D int array
