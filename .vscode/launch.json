@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DecompressRunLengthEncodedList",
+            "request": "launch",
+            "mainClass": "Array.DecompressRunLengthEncodedList",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[1,2,3,4]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - NumbersSmallerThanCurrent",
             "request": "launch",
             "mainClass": "Array.NumbersSmallerThanCurrent",
