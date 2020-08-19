@@ -16,18 +16,9 @@ public class PascalsTriangle {
                 }
             });
         }
-        if (numRows >= 2) {
-            res.add(new ArrayList<>() {
-                {
-                    add(1);
-                    add(1);
-                }
-            });
-        }
-
         List<Integer> list;
         List<Integer> lastList;
-        for (int i = 2; i < numRows; i++) {
+        for (int i = 1; i < numRows; i++) {
             list = new ArrayList<>();
             list.add(1);
             lastList = res.get(i - 1);
