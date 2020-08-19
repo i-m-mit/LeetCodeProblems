@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MissingNumber",
+            "request": "launch",
+            "mainClass": "Array.MissingNumber",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[9,6,4,2,3,5,7,0,1]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PascalsTriangle",
             "request": "launch",
             "mainClass": "Array.PascalsTriangle",
