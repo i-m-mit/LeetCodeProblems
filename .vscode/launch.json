@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PascalsTriangle",
+            "request": "launch",
+            "mainClass": "Array.PascalsTriangle",
+            "projectName": "LeetCodeProblems_17562f4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FirstUniqueCharacterInString",
             "request": "launch",
             "mainClass": "StringProblems.FirstUniqueCharacterInString",
