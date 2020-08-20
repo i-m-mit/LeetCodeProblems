@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - IntersectionOfTwoArraysII",
+            "request": "launch",
+            "mainClass": "Array.IntersectionOfTwoArraysII",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[1,2,2,3,1] [2,2,1]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MissingNumber",
             "request": "launch",
             "mainClass": "Array.MissingNumber",
