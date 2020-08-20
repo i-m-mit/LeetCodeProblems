@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - NumberOfOneBits",
+            "request": "launch",
+            "mainClass": "Common.NumberOfOneBits",
+            "projectName": "LeetCodeProblems_17562f4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - HappyNumber",
             "request": "launch",
             "mainClass": "Common.HappyNumber",
