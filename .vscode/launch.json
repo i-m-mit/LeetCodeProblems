@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ReverseBits",
+            "request": "launch",
+            "mainClass": "BitManipulation.ReverseBits",
+            "projectName": "LeetCodeProblems_17562f4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PlusOne",
             "request": "launch",
             "mainClass": "Array.PlusOne",
