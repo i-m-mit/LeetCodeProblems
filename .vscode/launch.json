@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PlusOne",
+            "request": "launch",
+            "mainClass": "Array.PlusOne",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[9]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - NumberOfOneBits",
             "request": "launch",
             "mainClass": "Common.NumberOfOneBits",
