@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - HappyNumber",
+            "request": "launch",
+            "mainClass": "Common.HappyNumber",
+            "projectName": "LeetCodeProblems_17562f4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - IntersectionOfTwoArraysII",
             "request": "launch",
             "mainClass": "Array.IntersectionOfTwoArraysII",
