@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LongestCommonPrefix",
+            "request": "launch",
+            "mainClass": "StringProblems.LongestCommonPrefix",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "flower flow flight"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FactorialTrailingZeroes",
             "request": "launch",
             "mainClass": "Math.FactorialTrailingZeroes",
