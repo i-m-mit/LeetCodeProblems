@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - IncreasingOrderSearchTree",
+            "request": "launch",
+            "mainClass": "Tree.IncreasingOrderSearchTree",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[5,3,6,2,4,null,8,1,null,null,null,7,9]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - AverageSalaryExcludingMinimumMaximum",
             "request": "launch",
             "mainClass": "Array.AverageSalaryExcludingMinimumMaximum",
