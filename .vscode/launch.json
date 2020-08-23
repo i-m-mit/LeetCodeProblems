@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - AverageSalaryExcludingMinimumMaximum",
+            "request": "launch",
+            "mainClass": "Array.AverageSalaryExcludingMinimumMaximum",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[8000,9000,2000,3000,6000,1000]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - NumberOfStudentsDoingHomework",
             "request": "launch",
             "mainClass": "Array.NumberOfStudentsDoingHomework",
