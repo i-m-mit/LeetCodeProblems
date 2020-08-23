@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Maximum69Number",
+            "request": "launch",
+            "mainClass": "Math.Maximum69Number",
+            "projectName": "LeetCodeProblems_17562f4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RemoveOutermostParentheses",
             "request": "launch",
             "mainClass": "StringProblems.RemoveOutermostParentheses",
