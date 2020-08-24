@@ -123,7 +123,7 @@ public class InputHelper {
      * @param args string array to be converted into Integer array
      * @return converted Integer array
      */
-    public static Integer[] argsToIntegerArray(String[] args) {
+    private static Integer[] argsToIntegerArray(String[] args) {
         checkInputArgs(args);
         Integer[] retArray = new Integer[args.length];
         int i = 0;
@@ -144,7 +144,7 @@ public class InputHelper {
      * @param args string array to be converted into int array
      * @return converted int array
      */
-    public static int[] argsToIntArray(String[] args) {
+    private static int[] argsToIntArray(String[] args) {
         checkInputArgs(args);
         int[] retArray = new int[args.length];
         int i = 0;
