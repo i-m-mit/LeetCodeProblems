@@ -18,6 +18,19 @@ public class InputHelper {
     }
 
     /**
+     * Converts the first index of the commandline into N-aryTree
+     * 
+     * @param args command line argument straight from main() method
+     * @return root node of n-ary tree
+     */
+    public static NaryTreeNode argsToNaryTreeNode(String[] args) {
+        checkInputArgs(args);
+        String[] sInputs = stringToArray(args[0]);
+        Integer[] input = argsToIntegerArray(sInputs);
+        return NaryTreeNode.createTree(input);
+    }
+
+    /**
      * Converts the first index of the commandline into Linked List
      * 
      * @param args command line argument straight from main() method
