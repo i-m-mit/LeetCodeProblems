@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - KWeakestRowsInMatrix",
+            "request": "launch",
+            "mainClass": "Array.KWeakestRowsInMatrix",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[[1,1,0,0,0],[1,1,1,1,0],[1,0,0,0,0],[1,1,0,0,0],[1,1,1,1,1]]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RemoveAllAdjacentDuplicatesInString",
             "request": "launch",
             "mainClass": "StringProblems.RemoveAllAdjacentDuplicatesInString",
