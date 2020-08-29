@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MaximumDepthNaryTree",
+            "request": "launch",
+            "mainClass": "Tree.MaximumDepthNaryTree",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[1,null,3,2,4,null,5,6]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - KWeakestRowsInMatrix",
             "request": "launch",
             "mainClass": "Array.KWeakestRowsInMatrix",
