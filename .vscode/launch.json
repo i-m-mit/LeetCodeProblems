@@ -6,6 +6,22 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MiddleOfLinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.MiddleOfLinkedList",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[1,2,3,4,5,6]"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SortIntegersByNumberOfOneBits",
+            "request": "launch",
+            "mainClass": "Sorting.SortIntegersByNumberOfOneBits",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[0,1,2,3,4,5,6,7,8]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MaximumDepthNaryTree",
             "request": "launch",
             "mainClass": "Tree.MaximumDepthNaryTree",
