@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - UniqueEmailAddresses",
+            "request": "launch",
+            "mainClass": "StringProblems.UniqueEmailAddresses",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "test.email+alex@leetcode.com test.e.mail+bob.cathy@leetcode.com testemail+david@lee.tcode.com"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SumOfRootToLeafBinaryNumbers",
             "request": "launch",
             "mainClass": "Tree.SumOfRootToLeafBinaryNumbers",
