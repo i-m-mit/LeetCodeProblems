@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FibonacciNumber",
+            "request": "launch",
+            "mainClass": "HashTable.FibonacciNumber",
+            "projectName": "LeetCodeProblems_17562f4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - UniqueEmailAddresses",
             "request": "launch",
             "mainClass": "StringProblems.UniqueEmailAddresses",
