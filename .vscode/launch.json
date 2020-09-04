@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ShortestDistanceToCharacter",
+            "request": "launch",
+            "mainClass": "StringProblems.ShortestDistanceToCharacter",
+            "projectName": "LeetCodeProblems_17562f4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FibonacciNumber",
             "request": "launch",
             "mainClass": "HashTable.FibonacciNumber",
