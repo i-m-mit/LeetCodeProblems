@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - NumberOfLinesToWriteString",
+            "request": "launch",
+            "mainClass": "StringProblems.NumberOfLinesToWriteString",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MinimumValueToGetPositiveStepByStepSum",
             "request": "launch",
             "mainClass": "Array.MinimumValueToGetPositiveStepByStepSum",
