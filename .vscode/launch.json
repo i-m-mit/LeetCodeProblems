@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MinimumValueToGetPositiveStepByStepSum",
+            "request": "launch",
+            "mainClass": "Array.MinimumValueToGetPositiveStepByStepSum",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[-3,2,-3,4,2]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ToeplitzMatrix",
             "request": "launch",
             "mainClass": "Array.ToeplitzMatrix",
