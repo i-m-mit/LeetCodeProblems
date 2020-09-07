@@ -18,6 +18,20 @@ public class InputHelper {
     }
 
     /**
+     * Converts the first index of the commandline into Tree
+     * 
+     * @param args  command line argument straight from main() method
+     * @param index index of command line argument array
+     * @return root node of tree
+     */
+    public static TreeNode argsToTreeNode(String[] args, int index) {
+        checkInputArgs(args);
+        String[] sInputs = stringToArray(args[index]);
+        Integer[] input = argsToIntegerArray(sInputs);
+        return TreeNode.createTree(input);
+    }
+
+    /**
      * Converts the first index of the commandline into N-aryTree
      * 
      * @param args command line argument straight from main() method
