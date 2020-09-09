@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LastStoneWeight",
+            "request": "launch",
+            "mainClass": "Common.LastStoneWeight",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[2,7,4,1,8,1]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TransposeMatrix",
             "request": "launch",
             "mainClass": "Array.TransposeMatrix",
