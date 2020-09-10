@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BinaryNumberWithAlternatingBits",
+            "request": "launch",
+            "mainClass": "BitManipulation.BinaryNumberWithAlternatingBits",
+            "projectName": "LeetCodeProblems_17562f4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LastStoneWeight",
             "request": "launch",
             "mainClass": "Common.LastStoneWeight",
