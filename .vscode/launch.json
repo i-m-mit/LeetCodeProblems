@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ComplementOfBase10Integer",
+            "request": "launch",
+            "mainClass": "BitManipulation.ComplementOfBase10Integer",
+            "projectName": "LeetCodeProblems_17562f4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BinaryNumberWithAlternatingBits",
             "request": "launch",
             "mainClass": "BitManipulation.BinaryNumberWithAlternatingBits",
