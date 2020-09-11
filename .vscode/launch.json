@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ReshapeTheMatrix",
+            "request": "launch",
+            "mainClass": "Array.ReshapeTheMatrix",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[[1,2],[3,4]]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ComplementOfBase10Integer",
             "request": "launch",
             "mainClass": "BitManipulation.ComplementOfBase10Integer",
