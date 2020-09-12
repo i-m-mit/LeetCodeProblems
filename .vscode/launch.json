@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LargestPerimeterTriangle",
+            "request": "launch",
+            "mainClass": "Math.LargestPerimeterTriangle",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[3,2,3,4]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RankTransformOfArray",
             "request": "launch",
             "mainClass": "Array.RankTransformOfArray",
