@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ReverseOnlyLetters",
+            "request": "launch",
+            "mainClass": "StringProblems.ReverseOnlyLetters",
+            "projectName": "LeetCodeProblems_17562f4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FairCandySwap",
             "request": "launch",
             "mainClass": "Array.FairCandySwap",
