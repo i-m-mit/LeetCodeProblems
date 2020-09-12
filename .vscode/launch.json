@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FairCandySwap",
+            "request": "launch",
+            "mainClass": "Array.FairCandySwap",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[1,1] [2,2]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Shift2DGrid",
             "request": "launch",
             "mainClass": "Array.Shift2DGrid",
