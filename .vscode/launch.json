@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PathCrossing",
+            "request": "launch",
+            "mainClass": "StringProblems.PathCrossing",
+            "projectName": "LeetCodeProblems_17562f4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CountBinarySubstrings",
             "request": "launch",
             "mainClass": "StringProblems.CountBinarySubstrings",
