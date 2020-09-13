@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MaxConsecutiveOnes",
+            "request": "launch",
+            "mainClass": "Array.MaxConsecutiveOnes",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[0,1]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PathCrossing",
             "request": "launch",
             "mainClass": "StringProblems.PathCrossing",
