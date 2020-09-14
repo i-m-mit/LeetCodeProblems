@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MinimumAbsoluteDifferenceInBST",
+            "request": "launch",
+            "mainClass": "Tree.MinimumAbsoluteDifferenceInBST",
+            "projectName": "LeetCodeProblems_17562f4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TwoSumInBST",
             "request": "launch",
             "mainClass": "Tree.TwoSumInBST",
