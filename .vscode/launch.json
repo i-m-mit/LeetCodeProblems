@@ -6,6 +6,22 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TwoSumInBST",
+            "request": "launch",
+            "mainClass": "Tree.TwoSumInBST",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[5,3,6,2,4,null,7]"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ConvertBSTToGreaterTree",
+            "request": "launch",
+            "mainClass": "Tree.ConvertBSTToGreaterTree",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[2,0,3,-4,1]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FloodFill",
             "request": "launch",
             "mainClass": "Array.FloodFill",
