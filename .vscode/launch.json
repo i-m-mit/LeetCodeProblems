@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LemonadeChange",
+            "request": "launch",
+            "mainClass": "Common.LemonadeChange",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[5,5,10,10,20]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BinaryTreePaths",
             "request": "launch",
             "mainClass": "Tree.BinaryTreePaths",
