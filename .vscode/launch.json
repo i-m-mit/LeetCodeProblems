@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BinaryTreePaths",
+            "request": "launch",
+            "mainClass": "Tree.BinaryTreePaths",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[1,2,3,4,5]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CousinsInBinaryTree",
             "request": "launch",
             "mainClass": "Tree.CousinsInBinaryTree",
