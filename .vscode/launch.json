@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PascalsTriangleII",
+            "request": "launch",
+            "mainClass": "Array.PascalsTriangleII",
+            "projectName": "LeetCodeProblems_17562f4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PartitionArrayIntoThreePartsWithEqualSum",
             "request": "launch",
             "mainClass": "Array.PartitionArrayIntoThreePartsWithEqualSum",
