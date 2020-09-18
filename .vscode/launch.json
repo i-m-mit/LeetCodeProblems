@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MaximizeSumOfArrayAfterKNegations",
+            "request": "launch",
+            "mainClass": "Common.MaximizeSumOfArrayAfterKNegations",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[3,-1,0,2]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LemonadeChange",
             "request": "launch",
             "mainClass": "Common.LemonadeChange",
