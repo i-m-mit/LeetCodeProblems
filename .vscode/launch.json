@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PartitionArrayIntoThreePartsWithEqualSum",
+            "request": "launch",
+            "mainClass": "Array.PartitionArrayIntoThreePartsWithEqualSum",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[3,3,6,5,-2,2,5,1,-9,4]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MaximizeSumOfArrayAfterKNegations",
             "request": "launch",
             "mainClass": "Common.MaximizeSumOfArrayAfterKNegations",
