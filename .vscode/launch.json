@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MyQueue",
+            "request": "launch",
+            "mainClass": "Queue.MyQueue",
+            "projectName": "LeetCodeProblems_17562f4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LowestCommonAncestorOfBST",
             "request": "launch",
             "mainClass": "Tree.LowestCommonAncestorOfBST",
