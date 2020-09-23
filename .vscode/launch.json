@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - AssignCookies",
+            "request": "launch",
+            "mainClass": "Greedy.AssignCookies",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[1,2] [1,2,3]"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FindTheTownJudge",
             "request": "launch",
             "mainClass": "Graph.FindTheTownJudge",
