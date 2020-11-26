@@ -58,6 +58,20 @@ public class InputHelper {
     }
 
     /**
+     * Converts the first index of the commandline into Linked List
+     * 
+     * @param args command line argument straight from main() method
+     * @param index index of command line argument array
+     * @return head node of linked list
+     */
+    public static ListNode argsToLisNode(String[] args, int index) {
+        checkInputArgs(args);
+        String[] sInputs = stringToArray(args[index]);
+        Integer[] input = argsToIntegerArray(sInputs);
+        return ListNode.createLinkedList(input);
+    }
+
+    /**
      * Split the string into array of strings
      * 
      * @param args
