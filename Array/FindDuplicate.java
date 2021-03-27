@@ -68,6 +68,6 @@ public class FindDuplicate {
     public static void main(String[] args) {
         int[] input = InputHelper.stringToIntegers(args);
         FindDuplicate o = new FindDuplicate();
-        System.out.println(o.findDuplicate(input));
+        System.out.println(o.findDuplicateV3(input));
     }
 }
