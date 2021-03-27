@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch NumbersOfLengthNAndValueLessThanK",
+            "request": "launch",
+            "mainClass": "Math.NumbersOfLengthNAndValueLessThanK",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[0,1,2,5]"
+        },
+        {
+            "type": "java",
             "name": "Launch MinStepsInInfiniteGrid",
             "request": "launch",
             "mainClass": "Array.MinStepsInInfiniteGrid",
