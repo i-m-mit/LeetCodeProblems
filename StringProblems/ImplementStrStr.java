@@ -32,8 +32,45 @@ public class ImplementStrStr {
         }
     }
 
+    public int strStrV2(String A, String B) {
+        int lenB = B.length();
+        int[] prefixSuffixArray = new int[lenB];
+        int i = 0;
+        int j = 1;
+        while (j < lenB) {
+            if (B.charAt(i) == B.charAt(j)) {
+                prefixSuffixArray[j++] = ++i;
+            } else {
+                if (i != 0) {
+                    i = prefixSuffixArray[i - 1];
+                } else {
+                    prefixSuffixArray[j++] = 0;
+                }
+            }
+        }
+
+        i = 0;
+        j = 0;
+        while (i < lenB && j < A.length()) {
+            if (B.charAt(i) == A.charAt(j)) {
+                i++;
+                j++;
+            } else {
+                if (i != 0) {
+                    i = prefixSuffixArray[i - 1];
+                } else {
+                    j++;
+                }
+            }
+        }
+
+        return i == lenB ? j - lenB : -1;
+    }
+
     public static void main(String[] args) {
         ImplementStrStr o = new ImplementStrStr();
-        System.out.println(o.strStrV1("mississippi", "pi"));
+        System.out.println(o.strStrV2(
+                "aabaaaababaabbbabbabbbaabababaaaaaababaaabbabbabbabbaaaabbbbbbaabbabbbbbabababbaaabbaabbbababbb",
+                "bba"));
     }
 }
