@@ -6,6 +6,21 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TwoSum",
+            "request": "launch",
+            "mainClass": "HashTable.TwoSum",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[4,7,-4,2,2,2,3,-5,-3,9,-4,9,-7,7,-1,9,9,4,1,-4,-2,3,-3,-5,4,-7,7,9,-4,4,-8]"
+        },
+        {
+            "type": "java",
+            "name": "Launch ZigzagString",
+            "request": "launch",
+            "mainClass": "StringProblems.ZigzagString",
+            "projectName": "LeetCodeProblems_17562f4"
+        },
+        {
+            "type": "java",
             "name": "Launch SingleNumberII",
             "request": "launch",
             "mainClass": "BitManipulation.SingleNumberII",
