@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ReorderList",
+            "request": "launch",
+            "mainClass": "LinkedList.ReorderList",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[1,2,3,4]"
+        },
+        {
+            "type": "java",
             "name": "Launch TwoSum",
             "request": "launch",
             "mainClass": "HashTable.TwoSum",
