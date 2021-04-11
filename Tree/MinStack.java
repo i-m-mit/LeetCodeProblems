@@ -76,6 +76,50 @@ public class MinStack {
         }
     }
 
+    class Node {
+        int val, min;
+        Node next;
+
+        Node(int val, int min) {
+            this.val = val;
+            this.min = min;
+            this.next = null;
+        }
+    }
+
+    Node head;
+
+    public void pushV1(int x) {
+        Node l1;
+        if (head == null) {
+            l1 = new Node(x, x);
+        } else {
+            l1 = new Node(x, Math.min(x, head.min));
+            l1.next = head;
+        }
+        head = l1;
+    }
+
+    public void popV1() {
+        if (head != null) {
+            head = head.next;
+        }
+    }
+
+    public int topV1() {
+        if (head == null) {
+            return -1;
+        }
+        return head.val;
+    }
+
+    public int getMinV1() {
+        if (head == null) {
+            return -1;
+        }
+        return head.min;
+    }
+
     public static void main(String[] args) {
         MinStack stack = new MinStack();
         ArrayList<Integer> list = new ArrayList<>();
