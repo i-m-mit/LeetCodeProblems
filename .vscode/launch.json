@@ -1223,7 +1223,7 @@
             "name": "Debug (Launch)-Permutations<LeetCode_bdde8d20>",
             "request": "launch",
             "mainClass": "Common.Permutations",
-            "args": "[1,2,3,4]"
+            "args": "[1,2,3]"
         },
         {
             "type": "java",
