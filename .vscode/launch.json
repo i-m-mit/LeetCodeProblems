@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch KReverseLinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.KReverseLinkedList",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[6,10,0,3,4,8]"
+        },
+        {
+            "type": "java",
             "name": "Launch LargestRectangleInHistogram",
             "request": "launch",
             "mainClass": "Common.LargestRectangleInHistogram",
