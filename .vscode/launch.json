@@ -6,6 +6,21 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch UniqueBinarySearchTrees",
+            "request": "launch",
+            "mainClass": "Tree.UniqueBinarySearchTrees",
+            "projectName": "LeetCodeProblems_17562f4"
+        },
+        {
+            "type": "java",
+            "name": "Launch SlidingWindowMaximum",
+            "request": "launch",
+            "mainClass": "Queue.SlidingWindowMaximum",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[10,9,8,7,6,5,4,3,2,1]"
+        },
+        {
+            "type": "java",
             "name": "Launch KReverseLinkedList",
             "request": "launch",
             "mainClass": "LinkedList.KReverseLinkedList",
