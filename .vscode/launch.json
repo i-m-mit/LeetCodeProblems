@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HighestProduct",
+            "request": "launch",
+            "mainClass": "Greedy.HighestProduct",
+            "projectName": "LeetCodeProblems_17562f4",
+            "args": "[-65,41,15,-11,69,23,-63,-4,49,-99,-61,17,-61]"
+        },
+        {
+            "type": "java",
             "name": "Launch DistributeCandy",
             "request": "launch",
             "mainClass": "Greedy.DistributeCandy",
